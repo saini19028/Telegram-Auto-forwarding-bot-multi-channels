@@ -28,7 +28,8 @@ Configurations are added in environment variables or [`.env.sample`](./.env.samp
 
 -   `BOT_TOKEN` - Telegram bot token received from [BotFather](https://t.me/BotFather)
 -   `REDIS_URI` - Redis database URI to store the channel ids. You can use [Redis Labs](https://redislabs.com/) to get a free Redis database
--   `WEBHOOK_HOST` - URL of the server where the bot is running
+-   `WEBHOOK_HOST` - URL of the server where the bot is running without end / other wise blank messages issue use like this example- https://yourweb.com
+-   `HOST` - add this- 0.0.0.0
 
 ## Deploying
 
